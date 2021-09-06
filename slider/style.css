@@ -30,7 +30,6 @@
 
 .slider-line {
   display: flex;
-  column-gap: 0.5%;
   position: relative;
   transition: 1s ease-in-out;
 }
@@ -39,8 +38,17 @@
   min-width: 33%;
   font-size: 35px;
   text-align: center;
+  margin:0 1px;
   color: white;
   background-color: rgb(0, 0, 0);
+  transition: 1s ease-in-out;
+}
+
+
+/*.hidden { display: none; }*/
+
+.smallslide.hidden{
+  visibility: hidden;
 }
 
 .buttons {
